@@ -1,12 +1,9 @@
 body {
-    -ms-progress-appearance: inherit;
     background-color: #000;
     color: #a70000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    position: relative; 
-    min-height: 100vh;
 }
 
 .header {
@@ -18,10 +15,11 @@ body {
 header {
     background-color: #000000;
     padding: 10px 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 1;
+}
 }
 .topnav {
     overflow: hidden;
@@ -41,8 +39,143 @@ header {
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
-    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Media Query for Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+    
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .burger {
+        display: flex;
+    }
+}
+nter;
+}
+
+.logo img {
+    height: 40px; /* A
+
+.logo {
+    display: flex;
+    align-items: cedjust this value as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.logo span {
+    color: #fff;
+    font-size: 24px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.logo img {
+    height: 40px; /* Adjust this value as needed */
+    margin-right: 10px; /* Space between logo and text */
+    transition: transform 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.logo span {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slightly increase the size of the logo on hover */
+}
+
+.logo:hover img {
+    transform: scale(1.1); /* Slightly increase the size of the logo image on hover */
+}
+
+.logo:hover span {
+    color: #ffcc00; /* Change the text color on hover */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+/* Toggle menu styles */
+.nav-active {
+    display: flex;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
 }
 
 .column {
@@ -66,7 +199,8 @@ header {
 }
 
 .navbar li {
-    float: left;
+    horizontal-align: center;
+    margin-right: 0%;
 }
 
 .navbar li a, .dropbtn {
@@ -188,18 +322,18 @@ button:hover {
 }
 
 main {
-    padding: 10px;
     text-align: center;
     position: relative; 
     vertical-align: top;
-    margin-top: 5%;
+    margin-top: 10%;
+
 }
 
 footer {
     background-color: #111;
     color: #fff;
     text-align: center;
-    vertical-align: auto;
+    vertical-align: top;
     margin: 0;
     position: fixed;
     bottom: 0;
@@ -266,3 +400,9 @@ div.chessboard > div:nth-child(16n + 14),
 div.chessboard > div:nth-child(16n + 16) {
 background-color: #c21515;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
