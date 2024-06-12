@@ -100,7 +100,7 @@ header {
        transition: transform 0.3s ease; /* Add a transition for smooth effect */
 }
 .logo {
-    display: 100f;
+    display: 100;
     align-items: center;
     margin-right: 10px; /* Space between logo and text */
     transition: transform 0.3s ease; /* Add a transition for smooth effect */
@@ -162,7 +162,6 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    heigth: 40px;
 }
 
 .navbar li {
@@ -177,7 +176,7 @@ header {
     text-align: center;
     padding: 0px 0px;
     text-decoration: none;
-    heigth: 40px;
+    height: 40px;
 }
 section {
     background-color: #f9f9f9;
@@ -324,7 +323,7 @@ footer ul p{
 footer li {
     display: inline;
     margin: 0 0px;
-    padding-right: 05x;
+    padding-right: 5px;
     word-spacing: 0%;
 }
 footer a {
