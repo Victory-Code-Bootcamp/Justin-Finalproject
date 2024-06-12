@@ -6,21 +6,16 @@ body {
     padding: 0;
 }
 
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-}
-
 header {
     background-color: #000000;
-    padding: 10px 0;
+    padding: 0px;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 1;
+    height:  40px;
 }
-}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -44,11 +39,6 @@ header {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
-}
-
-.logo {
-    color: #fff;
-    font-size: 24px;
 }
 
 .nav-links {
@@ -90,6 +80,7 @@ header {
         top: 60px;
         left: 0;
         background-color: #333;
+        list-style: none;
     }
     
     .nav-links li {
@@ -101,32 +92,20 @@ header {
         display: flex;
     }
 }
-nter;
-}
 
 .logo img {
-    height: 40px; /* A
-
-.logo {
-    display: flex;
-    align-items: cedjust this value as needed */
-    margin-right: 10px; /* Space between logo and text */
+    height: 80px; /* A
+       height: 40px; /* Adjust this value as needed */
+       margin-right: 10px; /* Space between logo and text */
+       transition: transform 0.3s ease; /* Add a transition for smooth effect */
 }
-
-.logo span {
+.logo {
+    display: 100f;
+    align-items: center;
+    margin-right: 10px; /* Space between logo and text */
+    transition: transform 0.3s ease; /* Add a transition for smooth effect */
     color: #fff;
     font-size: 24px;
-}
-.logo {
-    display: flex;
-    align-items: center;
-    transition: transform 0.3s ease; /* Add a transition for smooth effect */
-}
-
-.logo img {
-    height: 40px; /* Adjust this value as needed */
-    margin-right: 10px; /* Space between logo and text */
-    transition: transform 0.3s ease; /* Add a transition for smooth effect */
 }
 
 .logo span {
@@ -134,6 +113,7 @@ nter;
     font-size: 24px;
     transition: color 0.3s ease; /* Add a transition for smooth effect */
 }
+
 
 .logo:hover {
     transform: scale(1.1); /* Slightly increase the size of the logo on hover */
@@ -145,11 +125,6 @@ nter;
 
 .logo:hover span {
     color: #ffcc00; /* Change the text color on hover */
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
 }
 
 /* Toggle menu styles */
@@ -167,15 +142,6 @@ nter;
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.navbar {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
 }
 
 .column {
@@ -196,19 +162,22 @@ nter;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    heigth: 40px;
 }
 
 .navbar li {
-    horizontal-align: center;
     margin-right: 0%;
+    
+    height: 40px;
 }
 
 .navbar li a, .dropbtn {
     display: inline-block;
     color: rgb(250, 250, 250);
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 0px;
     text-decoration: none;
+    heigth: 40px;
 }
 section {
     background-color: #f9f9f9;
@@ -325,7 +294,7 @@ main {
     text-align: center;
     position: relative; 
     vertical-align: top;
-    margin-top: 10%;
+    z-index: 0;
 
 }
 
@@ -338,24 +307,31 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
+    z-index: align;
 }
 
-footer ul {
+footer ul p{
     text-align: center;
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     vertical-align: auto;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
 }
 
 footer li {
-    vertical-align: auto;
     display: inline;
-    margin: 0 10px;
+    margin: 0 0px;
+    padding-right: 05x;
+    word-spacing: 0%;
 }
 footer a {
     color: #b00;
     text-decoration: none;
+    height: 20px;
+    width: 20px;
 }
 
 footer a:hover {
@@ -364,7 +340,9 @@ footer a:hover {
 
 footer p {
     margin: 0%;
-    padding: 0;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 14px;
 }
 
 div.chessboard {
@@ -403,6 +381,28 @@ background-color: #c21515;
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+}    
 
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
