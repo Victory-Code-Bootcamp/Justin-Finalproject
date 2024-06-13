@@ -244,13 +244,15 @@ iframe {
 main h1 {
     text-align: center;
     position: relative; 
-    color:#b00
+    color:#b00;
+    margin-bottom: 100%
 }
 
 main p {
     text-align: center;
     position: relative; 
     color:#b00;
+    margin-bottom: 100%
 }
 
 main a {
