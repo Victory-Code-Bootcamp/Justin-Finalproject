@@ -9,34 +9,81 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Justin Wold's Final Project</div>
-            <ul class="nav-links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+                <div class="logo">
+                    <img src="images/logo.png" alt="MySite Logo" href="home.html">
+                </div>
+                <div class="logo"><h1>Justin Wold Victory Code Q1 Final Project</h1></div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+        
 
     <main>
-        <h1>Justin Wold Victory Code Showmenship Projectagraphy</h1>
-        <p>Explore my projects and challenges to enhance your coding skills.</p>
+        <div class="contact-form-container">
+            <h2>Contact Me</h2>
+            <form action="send_email.php#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </main>
 
     <footer>
         <h2>Quick Links for Coding Help</h2>
         <ul>
-            <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a></li>
+        <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow </a></li>
+        <li>|</li>
             <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener">Codecademy</a></li>
-            <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">freeCodeCamp</a></li>
+        <li>|</li> 
+                    <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">freeCodeCamp</a></li>
+        <li>|</li>
             <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+        <li>|</li>
             <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+        <li>|</li>
             <li><a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener">GeeksforGeeks</a></li>
+        <li>|</li>
             <li><a href="https://docs.google.com/spreadsheets/d/1Epc5EpBNnoQHu8uhGag_Rel7qyM7Up1mAmaizC20GDc/edit#gid=612474590" target="_blank" rel="noopener">Homework tracking sheet</a></li>
+        <li>|</li>
             <li><a href="https://www.victorycode.co/bootcamp/codingtovictory/day1https://www.geeksforgeeks.org/" target="_blank" rel="noopener">Curriculum</a></li>
+        <li>|</li>
             <li><a href="https://app.gather.town/app/PQahBHnVa7L0cXNE/Victory%20Code" target="_blank" rel="noopener">Virtual Office</a></li>
         </ul>
-        <br>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/justin.wold.96" target="_blank" class="social-icon"  rel="noopener">
+                    <img src="images/icons8-facebook-50.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/berrygoeshard" target="_blank" class="social-icon"  rel="noopener">
+                    <img src="images/icons8-twitter-50.png" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/justin-wold-b50413279/" target="_blank" class="social-icon" rel="noopener">
+                    <img src="images/icons8-linkedin-50.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Victory-Code-Bootcamp/Justin-Finalproject" target="_blank" class="social-icon" rel="noopener">
+                    <img src="images/icons8-github-50.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
         <p>Copyright © 2024 Justin-Bootcamp LLC</p>
     </footer>
 </body>
