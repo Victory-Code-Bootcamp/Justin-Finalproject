@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #2d2d2d;
     color: #fefdfd;
     padding: 0px;
     position: relative;
@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #2c2b2b;
     padding: 0px, 0px;
     margin: 0px;
     height: 50px;
@@ -40,7 +40,7 @@ header {
 }
 
 .nav-links a {
-    color: #0f0000;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
 }
@@ -67,7 +67,7 @@ header {
         width: 100%;
         position: relative;
         height: 50px;
-        background-color: #333;
+        background-color: #000000;
         list-style: none;
     }
     
@@ -147,12 +147,12 @@ header {
     height: 40px;
 }
 section {
-    background-color: #050000;
+    background-color: #000000;
     padding: 20px;  
 }
 
 .navbar li a:hover, .dropdown:hover .dropbtn {
-    background-color: #333;
+    background-color: #000000;
 }
 
 .dropdown {
@@ -192,7 +192,7 @@ section {
     position: relative;
     left: 100%;
     top: 0;
-    background-color: #0a0000;
+    background-color: #000000;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -226,7 +226,7 @@ button:hover {
 }
 
 main {
-    background-color: #0a0000;
+    background-color: #000000;
     text-align: center;
     position: relative; 
     top: 0px;
