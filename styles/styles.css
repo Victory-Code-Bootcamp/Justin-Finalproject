@@ -433,7 +433,7 @@ contact-form-container {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #fd1616;
+    border-color: #000000;
     outline: none;
 }
 
@@ -441,7 +441,7 @@ contact-form-container {
     display: block;
     width: 100%;
     padding: 0px;
-    background-color: #fa1313;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 3px;
