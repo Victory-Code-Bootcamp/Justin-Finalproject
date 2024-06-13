@@ -226,13 +226,14 @@ button:hover {
 }
 
 main {
+    background-color: #0a0000;
     text-align: center;
     position: relative; 
     top: 0px;
     font-size: 20px;
     padding-left: 250px;
     padding-right: 250px;
-    margin-bottom: 100%
+    
 }
 
 iframe {
@@ -245,14 +246,13 @@ main h1 {
     text-align: center;
     position: relative; 
     color:#b00;
-    margin-bottom: 100%
 }
 
 main p {
     text-align: center;
     position: relative; 
     color:#b00;
-    margin-bottom: 100%
+
 }
 
 main a {
@@ -317,6 +317,7 @@ form input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
+
 footer {
     background-color: #111;
     color: #ffffff;
@@ -347,6 +348,7 @@ footer li {
     padding-right: 5px;
     word-spacing: 0%;
 }
+
 footer a {
     color: #b00;
     text-decoration: none;
