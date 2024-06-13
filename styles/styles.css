@@ -420,9 +420,9 @@ contact-form-container {
 .form-group textarea {
     width: 50%;
     padding: 0px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 1px;
     background-color: rgb(33, 31, 31);
+    height: 25px;
 }
 
 .form-group input:focus,
