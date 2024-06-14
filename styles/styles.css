@@ -240,6 +240,7 @@ iframe {
     margin-left: 0px;
     width: 200px;
     height: 200px;
+    margin-top: 5px;
 }
 
 main h1 {
@@ -253,7 +254,7 @@ main p {
     text-align: center;
     position: relative; 
     color:#b00;
-    font-size: 21px;
+    font-size: 22px;
 
 }
 
@@ -289,7 +290,7 @@ main li {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0px;
-    margin-top: 18px;
+    margin-top: 19px;
 }
 
 form {
