@@ -253,7 +253,7 @@ main p {
     text-align: center;
     position: relative; 
     color:#b00;
-    font-size: 23px;
+    font-size: 21px;
 
 }
 
@@ -289,7 +289,7 @@ main li {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 form {
