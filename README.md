@@ -1,2 +1,2 @@
 # Justin-Finalproject
-Q1 final project, created via mobile phone while pc updated 
+Q1 final project by Justin Wold
